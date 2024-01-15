@@ -3,7 +3,7 @@ const members = [
   { name: 'Capitão América', id: 'capitao' },
   { name: 'O Incrível Hulk', id: 'hulk' },
   { name: 'Viúva Negra', id: 'viuva' },
-  { name: 'Thor, Deus do Trovao', id: 'thor' },
+  { name: 'Thor, Deus do Trovão', id: 'thor' },
   { name: 'Pantera Negra', id: 'pantera' },
 ]
 

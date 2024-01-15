@@ -3,16 +3,17 @@
     top: 0;
     right: -600px;
 
-    width: 600px;
+    width: 450px;
     height: 100vh;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(2px);
 
     display: flex;
-    flex-direction: column;
-    row-gap: 48px;
+    flex-direction:column;
 
-    padding: 72px 80px 0;
+    row-gap: 50px;
+
+    padding: 170px 25px 20px;
     transition: all 0.4s;
 }
 
@@ -25,9 +26,10 @@
 }
 
 #navigation div {
-    display: grid;
+    display:grid;
+    flex-direction: column;
     grid-template-columns: 1fr 1fr;
-    gap: 32px 40px;
+    row-gap: 30px;
 }
 
 #navigation div button {
@@ -42,6 +44,7 @@
     opacity: 0.5;
     align-items: center;
     transition: all 0.4s;
+    padding: 5px;
 }
 
 #navigation div button:hover img {
