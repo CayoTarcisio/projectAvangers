@@ -1,0 +1,75 @@
+main {
+    align-self: flex-end;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 12px;
+}
+
+
+main div {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: -30px;
+}
+
+main div button {
+    width: 40px;
+    height: 40px;
+
+    background: transparent;
+    border-radius: 100%;
+    border: 1px solid var(--text);
+
+    transition: opacity 0.4s;
+}
+
+main div button:disabled {
+    opacity: 0.4;
+}
+
+main div button svg path {
+    fill: var(--text);
+}
+
+#member__name {
+    font-size: 120px;
+    letter-spacing: 6px;
+    font-weight: 400;
+
+    color: transparent;
+    font-family: 'Avengers Italic';
+    padding-right: 10px;
+}
+
+#member__name.tony {
+    background: var(--homemDeFerro);
+    -webkit-background-clip: text;
+}
+
+#member__name.capitao {
+    background: var(--capitaoAmerica);
+    -webkit-background-clip: text;
+}
+
+#member__name.hulk {
+    background: var(--hulk);
+    -webkit-background-clip: text;
+}
+
+#member__name.viuva {
+    background: var(--viuvaNegra);
+    -webkit-background-clip: text;
+}
+
+#member__name.thor {
+    background: var(--thor);
+    -webkit-background-clip: text;
+}
+
+#member__name.pantera {
+    background: var(--panteraNegra);
+    -webkit-background-clip: text;
+}
